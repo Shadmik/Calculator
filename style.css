@@ -1,0 +1,82 @@
+@font-face{
+    font-family: Roboto;
+    src: url(./RobotoMono-VariableFont_wght.ttf)
+}
+body{
+    background-color: rgb(191, 218, 73);
+}
+h1{
+    font-size: 45px;
+    font-family: Roboto;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0px;
+}
+#headerCaption{
+    margin-top: 0px;
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#monitor{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(145, 78, 52);
+    margin: 0 auto;
+    margin-top: 45px;
+    border: 4px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 38px;
+    text-align: center;
+    line-height: 100px;
+}
+#iconFather{
+    display: grid;
+    width: 350px;
+    height: 100px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+.icons{
+    width: 1fr;
+    height: 1fr;
+    background-color: rgb(41, 46, 21);
+    font-size: 25px;
+    line-height: 75px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+.icons:hover{
+    font-size: 36px;
+    cursor: pointer;
+}
+.icons:active{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
