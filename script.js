@@ -95,6 +95,11 @@ del.addEventListener("click", () => {
 
 allClear.addEventListener("click", () => {
   monitor.innerText = "";
+  plusG=0;
+  minusG=0;
+  divideG=0;
+  multiplyG=0;
+  percentG=0;
 });
 
 plus.addEventListener("click", () => {
